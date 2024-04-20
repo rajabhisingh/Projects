@@ -1,0 +1,31 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    password: abhi
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: root
+  jpa:
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: kbio vrfv qbhz tawa
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: abhisingh906092@gmail.com
+    
+app:
+ messages:
+  dupEmail: Duplicate Email
+  regSuss: User Registered
+  regFaild: Registration Faild
+  invaildCredentials: Invaild Credentials
+  pwdMatchErr: New Pwd and Confirm Pwd Should be same
+  pwdUpdateErr: Pwd Update Faild
+  oldPwdErr: Given old pwd is wrong
+      
